@@ -83,15 +83,15 @@ body {
  ==============================================================*/
 
 section {
-  padding-top: 5vh;
-  height: 100vh;
+  padding-top: 7vh;
+  min-height: 100vh;
   margin: 0 10rem;
-  max-height: fit-content;
 }
 
 .section-title {
   text-align: center;
   font-size: 2.4rem;
+  text-transform: capitalize;
 }
 .card-container {
   display: grid;
@@ -132,3 +132,142 @@ section {
 /* ==============================================================
     Pricing Section
  ==============================================================*/
+
+#pricing .subtitle {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+.pricing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.3rem;
+  margin-top: 48px;
+  padding-bottom: 56px;
+}
+.pricing-card-container {
+  border: 1px solid #e5e7eb;
+  padding: 2rem;
+  width: 370.66px;
+  height: 444px;
+  border-radius: 0.8rem;
+}
+.card-pro {
+  border: 1px solid #0d1b2a;
+}
+
+.pricing-card hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 2rem 0;
+}
+.pricing-card ul {
+  padding-left: 18px;
+  margin-bottom: 0.8rem;
+}
+.pricing-card ul li {
+  padding: 6px 0;
+  color: #333333;
+  font-size: 15px;
+}
+
+.pricing-card ul li::marker {
+  color: #60a5fa;
+}
+.card-status {
+  color: #888888;
+  font-size: 13px;
+}
+.price {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.card-pro {
+  background-color: #0d1b2a;
+  color: #fff;
+}
+.card-pro ul li {
+  color: rgba(255, 255, 255, 0.8);
+}
+.card-pro .card-status {
+  color: rgb(255, 255, 255, 0.5);
+}
+.card-pro .p-pro {
+  color: #93c5fd;
+}
+
+.pricing-card-container .btn {
+  width: 100%;
+}
+
+.btn-outline {
+  width: 100%;
+  color: #2563eb;
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  background: transparent;
+  border: 1px solid #2563eb;
+  outline: none;
+  border-radius: 0.5rem;
+}
+.btn-contact {
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
+}
+
+/* ==============================================================
+    Footer Section
+ ==============================================================*/
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 3rem 8%;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-logo span {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #3b82f6;
+}
+
+footer hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 2rem 0;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.95rem;
+}
