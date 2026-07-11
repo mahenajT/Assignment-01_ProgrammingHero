@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -73,3 +78,57 @@ body {
   padding: 1rem 2.5rem;
 }
 
+/* ==============================================================
+    Speakers Section
+ ==============================================================*/
+
+section {
+  padding-top: 5vh;
+  height: 100vh;
+  margin: 0 10rem;
+  max-height: fit-content;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.4rem;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 56px;
+  padding-bottom: 56px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.8rem;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+.speakers-p1 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+.speakers-p2 {
+  font-size: 14px;
+  color: #575757;
+}
+.speakers-info {
+  padding: 1.5rem;
+}
+
+/* ==============================================================
+    Pricing Section
+ ==============================================================*/
