@@ -9,3 +9,34 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* ==============================================================
+    Navbar
+ ==============================================================*/
+#navbar,
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+#navbar {
+  min-height: 6.2rem;
+  justify-content: space-around;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links {
+  gap: 1.5rem;
+}
+.nav-links li a {
+  color: #000;
+  text-decoration: none;
+}
+.register-btn {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  background: #1d4ed8;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
